@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="icon" type="image/svg" href="images/logo.svg" />
+      <meta name="description" content="Advertising web site" />
+      <link rel="apple-touch-icon" href="images/logo.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>IQbay</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- Navbar -->
+      <header>
+        <div class="bg-light">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid p-0">
+                  <img class="navbar-brand" src="images/logo.svg" alt="site-logo"/>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse     justify-content-between " id="navbarTogglerDemo02">
+                    <div></div>
+                      <form class="d-flex">
+                        <input class="form-control me-2 search-input" type="search" placeholder="What are you looking for ?" aria-label="Search">
+                        <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                      </form>
+                      <div>                        
+                        <button class="btn-arbic">عربي</button>|
+                        <button class="btn-arbic m-0 p-0">English</button>
+                        <a href="login.html" class="sign-in">Sign In</a>
+                        <a href="profile-page.html"><i class="fas fa-user fa-lg" style="color: #16e693;"></i></a>
+
+                      </div>
+                  </div>
+                </div>
+              </nav>
+          </div>
+        </div>
+        <div class="menu-catgory">
+          <div class="">
+            <nav class="navbar navbar-expand-lg  ">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav   mb-lg-0 ul-vav align-items-center">
+                      <li class="nav-item ">
+                        <a class="nav-link  menu-link " href="index.html" >Home</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link  menu-link " href="about.html" >About</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link  menu-link " href="contact.html" >Contact Us</a>
+                      </li>
+                      <li class="nav-item"> 
+                        <div class="dropdown-me nav-link menu-link">
+                          <a class="dropbtn">Cars</a>
+                          <div class="dropdown-content">
+                            <a href="#">BMW</a>
+                            <a href="#">Mercedes</a>
+                            <a href="#">Mazda</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item"> 
+                        <div class="dropdown-me nav-link menu-link">
+                          <a class="dropbtn">Cars Model</a>
+                          <div class="dropdown-content">
+                            <a href="#">2021</a>
+                            <a href="#">2020</a>
+                            <a href="#">2019</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="dropdown-me nav-link menu-link">
+                          <a class="dropbtn">Car Colour</a>
+                          <div class="dropdown-content">
+                            <a href="#">Black</a>
+                            <a href="#">Red</a>
+                            <a href="#">white</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="dropdown-me nav-link menu-link">
+                          <a class="dropbtn">Car Motor</a>
+                          <div class="dropdown-content">
+                            <a href="#">car 1</a>
+                            <a href="#">cars 2</a>
+                            <a href="#">car 3</a>
+                          </div>
+                        </div>                  
+                      </li>
+                      <li class="nav-item">
+                        <div class="dropdown-me nav-link menu-link">
+                          <a class="dropbtn">Electroncs</a>
+                          <div class="dropdown-content">
+                            <a href="#">car 1</a>
+                            <a href="#">car 2</a>
+                            <a href="#">car 3</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          All Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="cars-page.html">Cars</a></li>
+                            <li><a class="dropdown-item" href="#">Electroncs</a></li>
+                            <li><a class="dropdown-item" href="#">Decor</a></li>
+                            <li><a class="dropdown-item" href="#">furniture</a></li>
+                            <li><a class="dropdown-item" href="buldings.html">Buildings</a></li>
+                            <li><a class="dropdown-item" href="#">Home Devices</a></li>
+                            <li><a class="dropdown-item" href="#">Jobs</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item lang-city" style="width: 8%;" >
+                        <a class="nav-link  menu-link text-center" aria-current="page" href="#" ><img src="images/iraq.svg" width="100%"  alt=""></a>
+                          <ul class="list-unstyled lang-city-menu px-1">
+                            <li style="overflow: hidden;">
+                              <label class="title"> <p>Ship to</p></label>
+                              <select class="form-select" aria-label="Default select example">
+                                <option selected>Country</option>
+                                <option value="1">Egypt</option>
+                                <option value="2">UAE</option>
+                                <option value="3">Saudi</option>
+                              </select>
+                              <select class="form-select" aria-label="Default select example">
+                                <option selected>City</option>
+                                <option value="1">Cairo</option>
+                                <option value="2">Cairo</option>
+                                <option value="3">Cairo</option>
+                              </select>
+                            </li>
+                            <li>
+                              <label class="title"> <p>Language</p></label>
+  
+                              <input type="radio" >
+                              <label for="" class="choice">Egypt</label>
+                              <input type="radio">
+                              <label class="choice">عربي</label>
+                              <a href="#" class="save">Save & Continue</a>
+                            </li>
+                           
+                          </ul>
+                        
+                      </li>
+                      <li class=" ad text-center">
+                        <a class="nav-link  menu-link " href="add-ad-car.html" ><i class="fas fa-ad fa-lg"></i> Place an Ad</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+          </div>
+        </div>
+      </header>
+      <!--End Navbar -->
+
+      <!-- Add Later -->
+      <div class=" mt-5  recommend container"> 
+
+            <div class="row justify-content-center">           
+
+                      <ul class="list-unstyled list-prod px-3 row" style="background-color: #e6e3e3;">
+                          <div class="row">
+                            <div class="col-xl-7 col-6 ">
+                              <div class="py-2 filter" style="border-radius: 6px;">
+                                <h3 class=" text-center m-0">Filter</h3>
+                              </div>
+                           </div>
+                           <div class="col-6 col-xl-5">
+                            <div class="dropdown  w-100 sort-by">
+                              <button class=" dropdown-toggle w-100 py-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-stream" style="color: #fff;"></i>  Sort By
+                              </button>
+                              <ul class="dropdown-menu px-2 w-100" aria-labelledby="dropdownMenuButton">
+                                <li>
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" checked value="option1">
+                                  <label class="form-check-label sort-by-label" for="inlineRadio1">from oldest to newest</label>
+                                </li>
+                                <li> 
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label sort-by-label" for="inlineRadio1">from newest to newest</label>
+                                </li>
+                                <li>
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label sort-by-label" for="inlineRadio1">price: from high to low</label>
+                                </li>
+                                <li>
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label sort-by-label" for="inlineRadio1">price: from low to high</label>
+                                </li>
+                                <li>
+                                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                  <label class="form-check-label sort-by-label" for="inlineRadio1">nearest to farthest</label>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+
+                          </div>
+                            <div class="row justify-content-center">
+                            
+                              <li class="mb-1 py-4   col-lg-4 col-md-6">
+                                 <h5> <i class="fas fa-bullhorn" style="color: #373373;margin-right: 7px;"></i> Ads type</h5>
+                                <button class="btn-1 btn-all">all</button><button class="btn-1">for sale</button><button class="btn-1 btn-buy">for buy</button>
+                              </li>
+                              <li class="mb-1 py-4   col-lg-4 col-md-6">
+                                <h5> <i class="fas fa-image fa-x " style="color: #373373;margin-right: 7px;"></i> with image</h5>
+                                <button class="btn-1 btn-all">all</button><button class="btn-1 with-img">with image</button><button class="btn-1 btn-buy">without</button>
+                              </li>
+                              <li class="mb-1 py-4  col-lg-4 col-md-6">
+                                <h5> <i class="fas fa-user" style="color: #373373; margin-right: 7px;"></i> Ad Owner</h5>
+                               <button class="btn-1 btn-all">all</button><button class="btn-1">Owner</button><button class="btn-1 btn-buy">business</button>
+                              </li>
+    
+                              <li class="mb-1 py-4   col-lg-4 col-md-6">
+                                <h5 class="price"> <i class="fas fa-dollar-sign icon-price"></i> Price</h5>
+                                <div class="row">
+                                  <div class=" col-6 from-to-price"> <span class=" py-2">From </span><input type="text " class="int-price w-50 " placeholder="00.00">EG</div>
+                                  <div class="col-6 from-to-price"> <span class=" py-2">To </span><input type="text " class="int-price w-50" placeholder="00.00">EG</div>
+                                </div>
+    
+                              </li>
+                              <li class="mb-1 py-4   col-lg-4 col-md-6">
+                                <div class="dropdown ">
+                                  <button class="  dropdown-toggle btn-city" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-map-marker-alt " style="color: #373373; margin-right: 7px;"></i>  city
+                                  </button>
+                                  <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                                    <li class="py-3 px-2">  
+                                      <a href="#"><i class="fas fa-search-location fa-lg" style="color: #16e693;"></i> Find location</a>
+                                    </li>
+                                    <li style="background-color: #f4f4f4f4;" class="py-3 px-2">
+                                      <p class="m-0 px-2">last used</p>
+                                    </li>
+                                    <li class="py-3 px-2">
+                                      <p class="m-0 px-2"><i class="fas fa-history fa-lg" style="color: #ccc;"></i> cairo egypt</p>
+                                    </li>
+                                    <li class="py-3 ">
+                                      <button class="choose-city d-inline-flex align-items-center  collapsed" data-bs-toggle="collapse" data-bs-target="#choose-city-collapse" aria-expanded="false">
+                                        Choose city
+                                    </button>
+                                    <div class=" px-2" id="choose-city-collapse">
+                                      <ul class="list-unstyled fw-normal pb-1 small p-2">
+                                          <li class="py-2">
+                                            <input type="radio" id="cairo" name="brand" value="cairo"  checked="checked">
+                                            <label for="cairo">cairo</label><br>
+                                          </li>
+                                          <li  class="py-2">
+                                            <input type="radio" id="cairo" name="brand" value="cairo"  >
+                                            <label for="cairo">cairo</label><br>
+                                          </li>
+                                          <li  class="py-2">
+                                            <input type="radio" id="cairo" name="brand" value="cairo">
+                                            <label for="cairo">cairo</label><br>
+                                          </li>
+                                          <li  class="py-2">
+                                            <input type="radio" id="cairo" name="brand" value="cairo">
+                                            <label for="cairo">cairo</label><br>
+                                          </li>
+                                      </ul>
+                                    </div>
+                                      
+                                    </li>
+  
+                                  </ul>
+                                </div>
+                              </li>
+                            </div>
+                            <!-- /////////////// -->
+                            <div class="row justify-content-center">
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light w-100 ">
+
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Brands
+                                    </a>
+                                  
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                      <li class="py-2">
+                                        <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                        <label for="all">all</label><br>
+                                      </li>
+                                      <li class="py-2">
+                                        <input type="radio" id="bmw" name="brand" value="bmw">
+                                        <label for="bmw">bmw</label><br>
+                                      </li>
+                                      <li class="py-2">
+                                        <input type="radio" id="Mercedes" name="brand" value="Mercedes">
+                                        <label for="Mercedes">Mercedes</label><br>
+                                      </li>
+                                      <li class="py-2">
+                                        <input type="radio" id="ople" name="brand" value="ople">
+                                        <label for="ople">ople</label><br>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Model
+                                    </a>
+
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="checkbox" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="Benz" name="brand" value="Benz"  >
+                                          <label for="Benz">Benz</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="verna" name="brand" value="verna">
+                                          <label for="verna">verna</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="vagn" name="brand" value="vagn">
+                                          <label for="vagn">vagn</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="cooper" name="brand" value="cooper">
+                                          <label for="cooper">cooper</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Year Made
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="checkbox" id="2021" name="brand" value="2021"  checked="checked">
+                                          <label for="2021">2021</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="2020" name="brand" value="2020"  >
+                                          <label for="2020">2020</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="2019" name="brand" value="2019">
+                                          <label for="2019">2019</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="2018" name="brand" value="2018">
+                                          <label for="2018">2018</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                      <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fas fa-circle fa-lg icon-brand"></i> Status
+                                      </a>
+                                      <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="checkbox" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+      
+                                        <li class="py-2">
+                                          <input type="checkbox" id="new" name="brand" value="new">
+                                          <label for="new">new</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="checkbox" id="Used" name="brand" value="Used">
+                                          <label for="Used">Used</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Colour
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="black" name="brand" value="black">
+                                          <label for="black">black</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="red" name="brand" value="red">
+                                          <label for="red">red</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="white" name="brand" value="white">
+                                          <label for="white">white</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Colour
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="black" name="brand" value="black">
+                                          <label for="black">black</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="red" name="brand" value="red">
+                                          <label for="red">red</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="white" name="brand" value="white">
+                                          <label for="white">white</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                
+                              <li class="mb-1 py-4 li-light ">
+                                <div class="dropdown w-100">
+                                  <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-circle fa-lg icon-brand"></i> Doors
+                                  </a>
+                                  <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                      <li class="py-2">
+                                        <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                        <label for="all">all</label><br>
+                                      </li>
+                                      <li class="py-2">
+                                        <input type="radio" id="2" name="brand" value="2">
+                                        <label for="2">2</label><br>
+                                      </li>
+                                      <li class="py-2">
+                                        <input type="radio" id="4" name="brand" value="4">
+                                        <label for="4">4</label><br>
+                                      </li>
+                                  </ul>
+                                </div>
+                              </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                <div class="dropdown w-100">
+                                  <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-circle fa-lg icon-brand"></i> Chairs
+                                  </a>
+                                  <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                      <li class="py-2">
+                                        <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                        <label for="all">all</label><br>
+                                      </li>
+                                      <li>
+                                        <input type="radio" id="2" name="brand" value="2">
+                                        <label for="2">2</label><br>
+                                      </li>
+                                      <li>
+                                        <input type="radio" id="4" name="brand" value="4">
+                                        <label for="4">4</label><br>
+                                      </li>
+                                      <li>
+                                        <input type="radio" id="6" name="brand" value="6">
+                                          <label for="6">6</label><br>
+                                       </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Type of Moving
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="black" name="brand" value="black">
+                                          <label for="black">black</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="red" name="brand" value="red">
+                                          <label for="red">red</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="white" name="brand" value="white">
+                                          <label for="white">white</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Oil Type 
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="black" name="brand" value="black">
+                                          <label for="black">black</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="red" name="brand" value="red">
+                                          <label for="red">red</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="white" name="brand" value="white">
+                                          <label for="white">white</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Kilometers
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="black" name="brand" value="black">
+                                          <label for="black">black</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="red" name="brand" value="red">
+                                          <label for="red">red</label><br>
+                                        </li>
+                                        <li>
+                                          <input type="radio" id="white" name="brand" value="white">
+                                          <label for="white">white</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                             
+                          
+                                  <li class="mb-1 py-4 li-light ">
+                                    <div class="dropdown w-100">
+                                      <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fas fa-circle fa-lg icon-brand"></i> Motor Type
+                                      </a>
+                                      <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                        <li class="py-2">
+                                          <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                          <label for="all">all</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="black" name="brand" value="black">
+                                          <label for="black">black</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="red" name="brand" value="red">
+                                          <label for="red">red</label><br>
+                                        </li>
+                                        <li class="py-2">
+                                          <input type="radio" id="white" name="brand" value="white">
+                                          <label for="white">white</label><br>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </li>
+
+                              </div>
+                              <div class="col-xl-2 col-lg-3 col-md-4">
+                                
+                                <li class="mb-1 py-4 li-light ">
+                                  <div class="dropdown w-100">
+                                    <a class="btn btn-secondary dropdown-toggle w-100 btn-color fw-bold" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                      <i class="fas fa-circle fa-lg icon-brand"></i> Push Power
+                                    </a>
+                                    <ul class="dropdown-menu w-100 px-2" aria-labelledby="dropdownMenuLink">
+                                    <li class="py-2">
+                                      <input type="radio" id="all" name="brand" value="all"  checked="checked">
+                                      <label for="all">all</label><br>
+                                    </li>
+                                    <li class="py-2">
+                                      <input type="radio" id="black" name="brand" value="black">
+                                      <label for="black">black</label><br>
+                                    </li>
+                                    <li class="py-2">
+                                      <input type="radio" id="red" name="brand" value="red">
+                                      <label for="red">red</label><br>
+                                    </li>
+                                    <li class="py-2">
+                                      <input type="radio" id="white" name="brand" value="white">
+                                      <label for="white">white</label><br>
+                                    </li>
+                                </ul>
+                              </div>
+                            </li>
+                              </div>
+
+
+
+                           </div>
+                            <!-- <li class="my-5"> 
+                              <input class="" type="submit" id="" value=" Show resualt" >
+                            </li>  -->
+                      </ul>
+
+                        <div class="row m-auto py-3" >
+                            <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                          <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                          <span class="date py-2">22 Oct 2020</span>
+                                          <div class="row py-2">
+                                              <div class="col-8"><h6>000.00EG</h6></div>
+                                              <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                          </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                          <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                          <span class="date py-2">22 Oct 2020</span>
+                                          <div class="row py-2">
+                                              <div class="col-8"><h6>000.00EG</h6></div>
+                                              <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                          </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                            <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                            <span class="date py-2">22 Oct 2020</span>
+                                            <div class="row py-2">
+                                                <div class="col-8"><h6>000.00EG</h6></div>
+                                                <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top " alt="add-later-image">
+                                        <div class="card-body p-1">
+                                            <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                            <span class="date py-2">22 Oct 2020</span>
+                                            <div class="row py-2">
+                                                <div class="col-8"><h6>000.00EG</h6></div>
+                                                <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                            <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                            <span class="date py-2">22 Oct 2020</span>
+                                            <div class="row py-2">
+                                                <div class="col-8"><h6>000.00EG</h6></div>
+                                                <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                            <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                            <span class="date py-2">22 Oct 2020</span>
+                                            <div class="row py-2">
+                                                <div class="col-8"><h6>000.00EG</h6></div>
+                                                <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                            <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                            <span class="date py-2">22 Oct 2020</span>
+                                            <div class="row py-2">
+                                                <div class="col-8"><h6>000.00EG</h6></div>
+                                                <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-xl-3 col-lg-4  p-0 ">
+                                <div class="m-3 card">
+                                    <a href="product-details.html">
+                                        <img src="images/car0.jpg" class="card-img-top" alt="add-later-image">
+                                        <div class="card-body p-1">
+                                            <h5 class="card-title m-0 py-2">Cars Model 2020 ...</h5>
+                                            <span class="date py-2">22 Oct 2020</span>
+                                            <div class="row py-2">
+                                                <div class="col-8"><h6>000.00EG</h6></div>
+                                                <div class="col-4 text-right"><i class="far fa-heart icon fa-2x"></i></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                        </div>
+                        <nav aria-label="Page navigation example my-3">
+                          <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+             
+   
+
+           </div>
+      </div>
+      <!--End Add Later -->
+
+      <!-- Footer -->
+      <footer class="p-5">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-3  col-md-6 ">
+                <img src="images/logo_white.svg" alt="site-logo">
+                <p class="pt-3 text-justfy paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aut dolorum, vero inventore architecto dolore.</p>
+              </div>
+              <div class="col-lg-3 col-12 col-md-6  information" style=" display: flex;justify-content: flex-end;">
+                <div>
+                  <h4 class="pb-2 " >Informations</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#cat-sec">Categories</a></li>
+                    <li><a href="usage-policy.html">Policy</a></li>
+                    <li><a href="login.html">Login</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg col-12 col-md-6   Categories"  style=" display: flex;justify-content: flex-end;">
+                <div>
+                  <h4 class="pb-2">Categories</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="cars-page.html">Cars</a></li>
+                    <li><a href="#">Home Devices</a></li>
+                    <li><a href="#">furniture</a></li>
+                    <li><a href="buldings.html">Buildings</a></li>
+                    <li><a href="#">Decor</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Electroncs</a></li>
+                  </ul> 
+                </div>
+              </div>
+              <div class="col-lg col-12 col-md-6   follow-us "style=" display: flex;justify-content: flex-end;">
+                <div>
+                  <h4 class="pb-2">Follow Us</h4>
+                  <ul class="list-unstyled follow-ul">
+                    <li><a href="#"><i class="fab fa-facebook-f follow-icon follow-icon-1"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram follow-icon follow-icon-2"></i> </a></li>
+                    <li><a href="#"><i class="fab fa-twitter follow-icon follow-icon-3"></i> </a></li>              
+                  </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+      <!-- copyright -->
+      <section class="text-center end">
+        <div class="container">
+          <p class="m-0 p-2">
+            <a href="https://www.tec-soft.net/" target="_blank" rel="noreferrer" style="color: #373373;">
+              All Right Reserved &copy; for <img src="images/logo.svg" alt="site-logo" width="45px">  Design By <span class="fw-bold" style="color: #FF8038;">Tech Soft</span> 
+            </a>
+          </p>
+        </div>
+      </section>
+      <!--end copyright -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  </body>
+</html>
